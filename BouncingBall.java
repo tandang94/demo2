@@ -140,7 +140,7 @@ public class BouncingBall extends JFrame {
 			g.fillRect(rightPaddleX, rightPaddleY, paddleWidth, rightPaddleHeight);
 			//Counter
 			g.drawString(""+leftCounter,20,20);
-			g.drawString(""+rightCounter,320,20);
+			g.drawString(""+rightCounter,250,20);
 			//Debug
 			long duration = System.nanoTime() - start;
 			//System.out.println("Paint in : "+ duration+ " nano seconds");
